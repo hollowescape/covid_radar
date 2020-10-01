@@ -1,7 +1,7 @@
 const app = document.getElementById('root')
 const container = document.createElement('card')
 container.setAttribute('class', 'card')
-
+//use fetch method to get api data
 app.appendChild(container)
 var request = new XMLHttpRequest()
 request.onload = function() {
